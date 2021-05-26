@@ -1,0 +1,52 @@
+/* Rewrite browser stylesheets */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* Visualization Props and misc */
+
+.heading {
+    color: rebeccapurple;
+    margin-top: 1rem;
+}
+
+.bar {
+    background-color: rebeccapurple;
+    width: 0.05vw;
+    margin-left: 0.01vw;
+    align-self: end;
+}
+
+.sortButton {
+    border-radius: 10px;
+    border: 2px solid rebeccapurple;
+    padding: 1rem;
+    width: 10rem;
+    background-color: white;
+    position: relative;
+    top: 2rem;
+    transition: 0.3s;
+}
+
+.sortButton:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+/* Display boxes */
+
+#visual {
+    border-bottom: 2px solid black;
+    width: 100vw;
+    height: 75vh;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}

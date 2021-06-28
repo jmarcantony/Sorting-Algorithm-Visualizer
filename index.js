@@ -47,7 +47,7 @@ function visualizeBubbleSort() {
         if (swapped === true) {
             visualizeBubbleSort();
         }
-    }, 150);
+    }, 100);
 }
 
 displayArray();
